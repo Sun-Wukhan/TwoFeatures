@@ -1,0 +1,414 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5442451245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "attempt to login with no password",
+        "description": "",
+        "id": "login-feature;attempt-to-login-with-no-password",
+        "after": [
+          {
+            "result": {
+              "duration": 77290155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883287153,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372937804,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters incorrect email",
+            "match": {
+              "location": "LoginSteps.user_enters_incorrect_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1323775,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user does not enter input in password field",
+            "match": {
+              "location": "LoginSteps.user_does_not_enter_input_in_password_field()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 112643269,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33389,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "there should be an error stating user should enter password",
+            "match": {
+              "location": "LoginSteps.there_should_be_an_error_stating_user_should_enter_password()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4638114113,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "login with invalid credentials",
+        "description": "",
+        "id": "login-feature;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 95676801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1829193018,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 395192260,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters incorrect email",
+            "match": {
+              "location": "LoginSteps.user_enters_incorrect_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129351583,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user signs enter incorrect password",
+            "match": {
+              "location": "LoginSteps.user_signs_enter_incorrect_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341004461,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26424,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "There should be an error, and user should not be granted access",
+            "match": {
+              "location": "LoginSteps.there_should_be_an_error_and_user_should_not_be_granted_access()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4716999591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "attempt to login with no password",
+        "description": "",
+        "id": "login-feature;attempt-to-login-with-no-password",
+        "after": [
+          {
+            "result": {
+              "duration": 77593794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1900692409,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users is on the login page",
+            "match": {
+              "location": "NotLoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361512105,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "users enters incorrect email",
+            "match": {
+              "location": "NotLoginSteps.user_enters_incorrect_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31352,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "users does not enter input in password field",
+            "match": {
+              "location": "NotLoginSteps.user_does_not_enter_input_in_password_field()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 108504387,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users clicks on sign in button",
+            "match": {
+              "location": "NotLoginSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27429,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "theres should be an error stating user should enter password",
+            "match": {
+              "location": "NotLoginSteps.there_should_be_an_error_stating_user_should_enter_password()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4631870382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "login with invalid credentials",
+        "description": "",
+        "id": "login-feature;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 78895597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631210545,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "users is on the login page",
+            "match": {
+              "location": "NotLoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 426038938,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "users enters incorrect email",
+            "match": {
+              "location": "NotLoginSteps.user_enters_incorrect_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131301345,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "users signs enter incorrect password",
+            "match": {
+              "location": "NotLoginSteps.user_signs_enter_incorrect_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295296658,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "users clicks on sign in button",
+            "match": {
+              "location": "NotLoginSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38004,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Theres should be an error, and user should not be granted access",
+            "match": {
+              "location": "NotLoginSteps.there_should_be_an_error_and_user_should_not_be_granted_access()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "notlogin.feature"
+  }
+]
