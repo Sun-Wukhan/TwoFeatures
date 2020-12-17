@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5442451245,
+  "duration": 10626369208,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,43 +53,43 @@ formatter.match({
   "location": "LoginSteps.user_is_on_the_login_page()"
 });
 formatter.result({
-  "duration": 1883287153,
+  "duration": 1986497145,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_enters_incorrect_email()"
 });
 formatter.result({
-  "duration": 372937804,
+  "duration": 340856037,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_does_not_enter_input_in_password_field()"
 });
 formatter.result({
-  "duration": 1323775,
+  "duration": 6927641,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 112643269,
+  "duration": 97357159,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.there_should_be_an_error_stating_user_should_enter_password()"
 });
 formatter.result({
-  "duration": 33389,
+  "duration": 25962,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77290155,
+  "duration": 185019182,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4638114113,
+  "duration": 6979109097,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,39 +135,39 @@ formatter.match({
   "location": "LoginSteps.user_is_on_the_login_page()"
 });
 formatter.result({
-  "duration": 1829193018,
+  "duration": 1915522532,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_enters_incorrect_email()"
 });
 formatter.result({
-  "duration": 395192260,
+  "duration": 354903310,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_signs_enter_incorrect_password()"
 });
 formatter.result({
-  "duration": 129351583,
+  "duration": 146086443,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 341004461,
+  "duration": 394526856,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.there_should_be_an_error_and_user_should_not_be_granted_access()"
 });
 formatter.result({
-  "duration": 26424,
+  "duration": 35622,
   "status": "passed"
 });
 formatter.after({
-  "duration": 95676801,
+  "duration": 170861925,
   "status": "passed"
 });
 formatter.uri("notlogin.feature");
@@ -179,7 +179,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4716999591,
+  "duration": 6924875201,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,43 +225,43 @@ formatter.match({
   "location": "NotLoginSteps.user_is_on_the_login_page()"
 });
 formatter.result({
-  "duration": 1900692409,
+  "duration": 1893697018,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_enters_incorrect_email()"
 });
 formatter.result({
-  "duration": 361512105,
+  "duration": 437699476,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_does_not_enter_input_in_password_field()"
 });
 formatter.result({
-  "duration": 31352,
+  "duration": 45690,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 108504387,
+  "duration": 132217318,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.there_should_be_an_error_stating_user_should_enter_password()"
 });
 formatter.result({
-  "duration": 27429,
+  "duration": 31191,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77593794,
+  "duration": 178129945,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4631870382,
+  "duration": 7712663302,
   "status": "passed"
 });
 formatter.scenario({
@@ -307,39 +307,39 @@ formatter.match({
   "location": "NotLoginSteps.user_is_on_the_login_page()"
 });
 formatter.result({
-  "duration": 1631210545,
+  "duration": 2094742826,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_enters_incorrect_email()"
 });
 formatter.result({
-  "duration": 426038938,
+  "duration": 367490140,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_signs_enter_incorrect_password()"
 });
 formatter.result({
-  "duration": 131301345,
+  "duration": 138417562,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 295296658,
+  "duration": 375598777,
   "status": "passed"
 });
 formatter.match({
   "location": "NotLoginSteps.there_should_be_an_error_and_user_should_not_be_granted_access()"
 });
 formatter.result({
-  "duration": 38004,
+  "duration": 30576,
   "status": "passed"
 });
 formatter.after({
-  "duration": 78895597,
+  "duration": 171109412,
   "status": "passed"
 });
 });
